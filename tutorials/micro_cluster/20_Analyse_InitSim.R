@@ -2,14 +2,14 @@ library(ggplot2)
 library(scales)
 library(lubridate)
 library(stringr)
-
+library(RSlurmSimTools)
 library(rPython)
 library(Rcpp)
 
-top_dir <- "/home/mikola/slurm_simulator3/slurm_sim_tools/validation"
+top_dir <- "~/input/baseline_test"
 
 setwd(top_dir)
-source("../Rutil/trace_job_util.R")
+# source("../Rutil/trace_job_util.R")
 
 sdiag<-read.csv("sdiag.csv")
 

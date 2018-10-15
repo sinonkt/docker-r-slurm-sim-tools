@@ -5,3 +5,5 @@ input
 .Ruserdata
 .project
 .pydevproject
+.bash_history
+.rstudio
